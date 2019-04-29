@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1084751_i40mxsnzfo8.css"/>
+
+    <link rel="stylesheet" href="css/headfoot.css">
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/second.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/laydate/laydate.js"></script>
+</head>
+<body>
+    <div class="ding">
+        <!-- 导航部分-->
+        <div class="navs">
+            <script>$(".navs").load("header.html");</script>
+        </div>
+    </div>
+    <div class="neiyetp dingzhiyou">
+        <div class="main">
+            <div class="main_md ">
+
+                <div class="dzy">
+                    <!--请填写您的需求-->
+                    <div class="xuqiu">
+                        <div class="main">
+                            <div class="main_md ">
+                                <div class="dzyou">
+                                    <h1><i class="iconfont icontianxie"></i> 请填写您的需求</h1>
+                                    <div class="biaoge">
+                                        <div>
+                                            <h2>联系人信息</h2>
+                                            <div class="flex">
+                                                <div>
+                                                    姓名<em class="red">*</em> <br/>
+                                                    <input type="text"/>
+                                                </div>
+                                                <div>
+                                                    联系电话<em class="red">*</em> <br/>
+                                                    <input type="text"/>
+                                                </div>
+                                            </div>
+                                            <div class="flex">
+                                                <div>
+                                                    微信号 <br/>
+                                                    <input type="text"/>
+                                                </div>
+                                            </div>
+                                            <h2>需求填写</h2>
+                                            <div class="flex">
+                                                <div>
+                                                    预计出游日期<em class="red">*</em> <br/>
+                                                    <input type="text" id="chuyou"/>
+                                                </div>
+                                                <div>
+                                                    预计归来日期<em class="red">*</em> <br/>
+                                                    <input type="text" id="guilai"/>
+                                                </div>
+                                            </div>
+                                            <div class="flex">
+                                                <div>
+                                                    预计出游人数<em class="red">*</em> <br/>
+                                                    <div>
+                                                        <label for="">
+                                                            <span class="jian">-</span>
+                                                            <input type="text" value="0"/>
+                                                            <span class="jia">+</span>
+                                                        </label>
+                                                        成人
+                                                        <label for="">
+                                                            <span class="jian">-</span>
+                                                            <input type="text" value="0"/>
+                                                            <span class="jia">+</span>
+                                                        </label>
+                                                        儿童
+                                                    </div>
+
+                                                </div>
+                                                <div>
+                                                    预估人均预算<em>*</em> <br/>
+                                                    <input type="text"/>
+                                                </div>
+                                            </div>
+                                            <div class="wenbenk">
+                                                备注：<br/>
+                                                <textarea name="" id="" cols="30" rows="10" placeholder="可在此填写个性化需求，或其他备注信息"></textarea>
+                                            </div>
+                                            <a href="#">提交信息</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 旅游价格表 -->
+                    <div class="lyjgbiao">
+                        <div class="main">
+                            <div class="main_md ">
+                                <div class="dzyou">
+                                    <h1><i class="iconfont icontianxie"></i> 旅游价格表</h1>
+                                    <div class="second-detail active">
+                                        <table class="yd-table1">
+                                            <tbody>
+                                            <tr class="tou">
+                                                <td class="yd-td2">类型</td>
+                                                <td class="yd-td2">景区名称</td>
+                                                <td class="yd-td2">票价</td>
+                                                <td class="yd-td2">位置</td>
+                                                <td class="yd-td2">所用时间</td>
+                                                <td class="yd-td2">查看详情</td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="6">爬山观景</td>
+                                                <td>孤山寨大峡谷</td>
+                                                <td>75元</td>
+                                                <td>七渡村</td>
+                                                <td>约3小时</td>
+                                                <td><a href="#">查看详细介绍</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>东湖港大峡谷</td>
+                                                <td>65元</td>
+                                                <td>十五渡</td>
+                                                <td>约4小时</td>
+                                                <td><a href="#">查看详细介绍</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>云端玻璃栈道</td>
+                                                <td>65元</td>
+                                                <td>三渡村</td>
+                                                <td>约1.5小时</td>
+                                                <td><a href="#">查看详细介绍</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3D玻璃栈道</td>
+                                                <td>65元</td>
+                                                <td>九渡村</td>
+                                                <td>约1小时</td>
+                                                <td><a href="#">查看详细介绍</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>誓言玻璃栈道</td>
+                                                <td>65元</td>
+                                                <td>西庄村</td>
+                                                <td>约2小时</td>
+                                                <td><a href="#">查看详细介绍</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>盘壁玻璃栈道</td>
+                                                <td>65元</td>
+                                                <td>十四渡</td>
+                                                <td>约2小时</td>
+                                                <td><a href="#">查看详细介绍</a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td rowspan="3">团建拓展</td>
+                                                <td>真人CS</td>
+                                                <td>75元</td>
+                                                <td>西庄村</td>
+                                                <td>约1小时</td>
+                                                <td><a href="#">查看详细介绍</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>拓展</td>
+                                                <td>200元</td>
+                                                <td>西庄村</td>
+                                                <td>约1小时</td>
+                                                <td><a href="#">查看详细介绍</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>穿越</td>
+                                                <td>200元</td>
+                                                <td>西庄村</td>
+                                                <td>约1小时</td>
+                                                <td><a href="#">查看详细介绍</a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td rowspan="2">游戏娱乐</td>
+                                                <td>卡丁车</td>
+                                                <td>60元/圈</td>
+                                                <td>七渡村</td>
+                                                <td>约20秒</td>
+                                                <td><a href="#">查看详细介绍</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>网虹桥</td>
+                                                <td>60元/次</td>
+                                                <td>西庄村</td>
+                                                <td></td>
+                                                <td><a href="#">查看详细介绍</a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td rowspan="2">水中嬉戏</td>
+                                                <td>拒马河漂流</td>
+                                                <td>100元</td>
+                                                <td>十八渡</td>
+                                                <td>约1.5小时</td>
+                                                <td><a href="#">查看详细介绍</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>竹筏</td>
+                                                <td>60元</td>
+                                                <td>十八渡</td>
+                                                <td>约1小时</td>
+                                                <td><a href="#">查看详细介绍</a></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="mpxq">
+                                            <img src="image/mp_30.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  美图欣赏 -->
+                    <div class="lyjgbiao">
+                        <div class="main">
+                            <div class="main_md ">
+                                <div class="dzyou mtxs">
+                                    <h1><i class="iconfont icontianxie"></i> 美图欣赏</h1>
+                                    <div class="picture">
+                                        <div class="xinshang yjgl-zt-tp">
+                                            <div>
+                                                <ul class="datu">
+                                                    <li class="guding">
+                                                        <img src="image/gl1.jpg" alt=""/>
+                                                    </li>
+                                                    <li class="sigexiaotu">
+                                                        <ul>
+                                                            <li><img src="image/gl2.jpg" alt=""/></li>
+                                                            <li><img src="image/gl3.jpg" alt=""/></li>
+                                                            <li><img src="image/gl4.jpg" alt=""/></li>
+                                                            <li><img src="image/gl5.jpg" alt=""/></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <ul>
+                                                <li><img src="image/gl2.jpg" alt=""/></li>
+                                                <li><img src="image/gl3.jpg" alt=""/></li>
+                                                <li><img src="image/gl4.jpg" alt=""/></li>
+                                                <li><img src="image/gl5.jpg" alt=""/></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- 底部-->
+    <div class="foots">
+        <script>$(".foots").load("footer.html");</script>
+    </div>
+    <script>
+        laydate.render({
+            elem:'#chuyou'
+        })
+        laydate.render({
+            elem:'#guilai'
+        })
+        $('.jia').click(function(){
+            if(($(this).parent().children()[1].value)<100){
+                ($(this).parent().children()[1].value)++;
+            }
+        })
+        $('.jian').click(function(){
+            if(($(this).next()[0].value)>=1){
+                ($(this).next()[0].value)--
+            }
+            else{
+                ($(this).next()[0].value)=0;
+            }
+        })
+    </script>
+</body>
+</html>

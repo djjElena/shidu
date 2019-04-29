@@ -1,0 +1,372 @@
+.ding{
+    position: relative;
+    min-height: 65px;
+}
+.navs{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color:#fff;
+}
+#banner{
+    padding-top:65px;
+}
+.wenzi{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.wenzi h1 em{
+    vertical-align: middle;
+    width:40px;
+    display: inline-block;
+    border-top:2px solid rgba(255,255,255,.5);
+}
+.wenzi h1{
+    color:#fff;
+    text-align: center;
+    font-size: 18px;
+}
+.wenzi h2{
+    width: 70%;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid #fff;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.mian{
+    width:100%;
+}
+/*十个分类*/
+.fenlei{
+    margin:15px;
+    background: #fff;
+    border-radius: 5px;
+    padding:10px 0;
+}
+.fenlei ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fenlei ul li{
+    width:20%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.fenlei ul li:nth-child(n+5){
+    margin-bottom: 0;
+}
+.fenlei ul li a i{
+    font-size: 30px;
+}
+.fenlei ul li a p{
+    font-size: 15px;
+    color: #000;
+}
+.hongse{color:#fc6947;}
+.huangse{color:#f1b11d;}
+.lanse{ color:#4689ea;}
+.lvse{color:#1ecd6b;}
+.zise{color:#ba7efc;}
+
+/*几日游*/
+
+.jiriyou,.sixfenlei{
+    margin:15px;
+    /*background: #fff;*/
+}
+
+.jiriyou ul:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.jiriyou ul li{
+    width:33%;
+    height: 80px;
+    float: left;
+    position: relative;
+}
+.jiriyou ul li:first-child img{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    -moz-border-top-left-radius: 8px;
+    -moz-border-bottom-left-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+}
+.jiriyou ul li:last-child img{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -moz-border-top-right-radius: 8px;
+    -moz-border-bottom-right-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+}
+.jiriyou ul li a img{
+    width:100%;
+}
+.jiriyou ul li a div{
+    position: absolute;
+    bottom:10px;
+    left:20px;
+    color:#fff;
+    font-size: 14px;
+}
+.jiriyou ul li a div h1{
+    margin-bottom: 5px;
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 3px 10px;
+}
+.jiantou{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.huisebg{
+    background: #f5f5f5;
+}
+/*六个分类*/
+.sixfenlei ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sixfenlei ul li{
+    width:50%;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+}
+.sixfenlei ul li:nth-child(odd) a div p{
+    border:1px solid #e1d27b;
+    color:#e1d27b;
+}
+.sixfenlei ul li:nth-child(even) a div p{
+    border:1px solid #ff852b;
+    color:#ff852b;
+}
+.sixfenlei ul li:first-child a img,.sixfenlei ul li:nth-child(5) a img{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    -moz-border-top-left-radius: 8px;
+    -moz-border-bottom-left-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+}
+.sixfenlei ul li:nth-child(2) a img,.sixfenlei ul li:nth-child(6) a img{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -moz-border-top-right-radius: 8px;
+    -moz-border-bottom-right-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+}
+.sixfenlei ul li a img{
+    width:100%;
+    height:100%;
+}
+.sixfenlei ul li a div{
+    position: absolute;
+    bottom:10px;
+    left:20px;
+    text-align: center;
+}
+.sixfenlei ul li a div h1{
+    font-size: 16px;
+    color:#000;
+    margin-bottom: 5px;
+}
+.sixfenlei ul li a div p{
+    padding:0 10px;
+    border-radius: 20px;
+}
+/*定制游*/
+.dingzhiyou{
+    position: relative;
+    background: url(../img/dz_02.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100px;
+}
+.dingzhiyou a div{
+    top: 20px;
+    position: absolute;
+    left: 20px;
+}
+.dingzhiyou a div h1{
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #6b4224;
+}
+.dingzhiyou a div h2{
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #6b4224;
+}
+.dingzhiyou a div p{
+    background: #6b4224;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 3px 5px;
+}
+/*游客关注*/
+.watch{
+    margin-top:15px;
+    background: #fff;
+}
+.watch-top{
+    padding:15px;
+}
+.watch-top h1{
+    font-size: 18px;
+    text-align: center;
+    color:#f5732b;
+    margin-bottom: 20px;
+}
+.watch-top h1 i{
+    vertical-align: bottom;
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background: url(../img/hot_03.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.watch-top>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.watch-top>ul>li{
+    padding: 3px 5px;
+    font-size: 14px;
+    background: #f3f3f3;
+    border-radius: 20px;
+    text-align: center;
+    width: 17%;
+}
+.watch-top>ul>li.active{
+    background: #f5732b;
+    color:#fff;
+}
+/*.watch-top>ul>li.active a{*/
+    /*color:#fff;*/
+/*}*/
+
+.xianshi{
+    display: none;
+}
+.xianshi.active{
+    display: block;
+}
+
+
+.neirong{
+    border-top:1px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+.neirong ul{
+    padding:0 15px;
+}
+.neirong ul li a{
+    padding:15px 0;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #f0f0f0;
+}
+.neirong ul li a div:first-child{
+    width:100px;
+    height:100px;
+    margin-right:10px;
+    overflow: hidden;
+}
+.neirong ul li a div:last-child h1{
+    width: 100%;
+    height:16px;
+    overflow: hidden;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.neirong ul li a div:last-child p{
+    text-align: justify;
+    font-size: 14px;
+    color:#a3a3a3;
+    height: 63px;
+    overflow: hidden;
+}
+.neirong ul li a div:last-child span{
+    display: block;
+    color:#f5732b;
+}
+.neirong ul li a div:first-child img{
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+}
+.neirong ul li a div:last-child{
+    width:70%;
+    /*height:100px;*/
+    overflow: hidden;
+}
+.more{
+    width:100px;
+    display: block;
+    margin:15px auto;
+    background: #165090;
+    color:#fff;
+    text-align: center;
+    border-radius: 20px;
+    padding:5px;
+}
+/*景点-攻略-美图-视频*/
+.picture{
+    padding-bottom: 10px;
+    /*border-top:1px solid #f0f0f0;*/
+}
+.picture ul:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.picture ul{
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 15px;
+    /*display: flex;*/
+    flex-wrap: wrap;
+    /*justify-content: space-around;*/
+}
+.picture ul li{
+    border-radius: 5px;
+    width:48%;
+    height:125px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    float:left;
+}
+.picture ul li:nth-child(odd){
+    margin-right:10px;
+}
+.picture ul li img{
+    width: 100%;
+    height: 100%;
+}
+.picture ul li a video{
+    object-fit: fill;
+    width:100%;
+    height:100%;
+    vertical-align: middle;
+}
